@@ -20,15 +20,13 @@ const SubscriptionPage = (): JSX.Element => {
         initialise();
     }, []);
 
-    // useEffect(() => {
-        // console.log('errors')
-        // errors && console.error(errors);
-    // }, [errors]);
+    useEffect(() => {
+        errors && console.error(errors);
+    }, [errors]);
 
 
     const initialise = async (): Promise<void> => {
         const [plans, rates] = await Promise.all([getSubscriptionPlans(), getCurrencyRates()]);
-        // console.log({plans, rates})
         initialiseState(plans, rates);
     }
 
