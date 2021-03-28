@@ -14,7 +14,7 @@ after step 1 and 2 have been completed, navigate to http://localhost:4000
 - install dependencies - npm install 
 - run tests - npm run test
 
-#### 5. running FE tests
+#### 5. run FE tests
 - navigate to client 
 - install dependencies - npm install 
 - run tests - npm run test
