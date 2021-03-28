@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "jsx": "react",
+        // "strictNullChecks": true,
+        // "noUnusedLocals": true,
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
